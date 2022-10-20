@@ -192,8 +192,31 @@ bindsym Mod1+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        status_command i3status
+        status_command i3blocks
+	position top
 }
+
+# Lock screen
+bindsym $mod+x exec i3lock -ec 000000
+
+# Layout
+exec_always setxkbmap -layout us,ru
+exec_always setxkbmap -option 'grp:alt_space_toggle'
+
+
+# Nitrogen
+exec nitrogen --restore
+
+# Brightless
+bindsym XF86MonBrightnessUp exec --no-startup-id light -A 1
+bindsym XF86MonBrightnessDown exec --no-startup-id light -U 1
+
+# Touchpad
+exec_always xinput set-prop 10 323 1
+exec_always xinput set-prop 11 343 1
+
+# Window Compositor
+exec_always picom -f
 
 
 exec i3-config-wizard
