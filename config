@@ -218,5 +218,9 @@ exec_always xinput set-prop 11 343 1
 # Window Compositor
 exec_always picom -f
 
+# GAPS
+for_window [class="^.*"] border pixel 0
+	gaps inner 0
+	gaps outer 0
 
 exec i3-config-wizard
