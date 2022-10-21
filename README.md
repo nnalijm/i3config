@@ -24,3 +24,5 @@ In terms of customization i3status is quite boring so i quickly removed to [i3bl
 I3blocks became next status bar i've used. He gives you more apportunity for customization.
 
 Default i3blocks bar looks like i3status. There are the same sections with data. Unlike i3status here you can create your own script, which will show useful information.
+
+>[Here](https://github.com/vivien/i3blocks-contrib) you can find scripts, which was already wrote. Nobody forbids you to write your own script using Bash, Perl, Python or other language.
