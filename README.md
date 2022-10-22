@@ -27,4 +27,9 @@ Default i3blocks bar looks like i3status. There are the same sections with data.
 
 >[Here](https://github.com/vivien/i3blocks-contrib) you can find scripts, which was already wrote. Nobody forbids you to write your own script using Bash, Perl, Python or other language.
 
+
+After all configuration my status bar:
+
+![image](http://www.nalijm.org/i3blocks.jpg)
+
 File *i3blocks.conf* contains discription and links to the scripts, which are executed when i3blocks starts.
