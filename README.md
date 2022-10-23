@@ -41,3 +41,5 @@ Since i3 was installed i've been using default i3lock. I've found several soluti
 First: [betterlockscreen](https://github.com/betterlockscreen/betterlockscreen). But for some reasons it doesn't work.(distor: debian 11). I'm trying for find out something.
 
 Second: [i3lock-color](https://github.com/Raymo111/i3lock-color) i use now. It is much better then default(white lock screen).
+
+![lockscreen](http://www.nalijm.org/images/lockscreen.png)
