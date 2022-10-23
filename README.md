@@ -26,3 +26,18 @@ I3blocks became next status bar i've used. He gives you more apportunity for cus
 Default i3blocks bar looks like i3status. There are the same sections with data. Unlike i3status here you can create your own script, which will show useful information.
 
 >[Here](https://github.com/vivien/i3blocks-contrib) you can find scripts, which was already wrote. Nobody forbids you to write your own script using Bash, Perl, Python or other language.
+
+
+After all configuration my status bar:
+
+![image](http://www.nalijm.org/i3blocks.jpg)
+
+File *i3blocks.conf* contains discription and links to the scripts, which are executed when i3blocks starts.
+
+## [I3lock](https://github.com/i3/i3lock)
+
+Since i3 was installed i've been using default i3lock. I've found several solutions how to make/change default lockscreen. 
+
+First: [betterlockscreen](https://github.com/betterlockscreen/betterlockscreen). But for some reasons it doesn't work.(distor: debian 11). I'm trying for find out something.
+
+Second: [i3lock-color](https://github.com/Raymo111/i3lock-color) i use now. It is much better then default(white lock screen).
