@@ -33,3 +33,11 @@ After all configuration my status bar:
 ![image](http://www.nalijm.org/i3blocks.jpg)
 
 File *i3blocks.conf* contains discription and links to the scripts, which are executed when i3blocks starts.
+
+## I3lock
+
+Since i3 was installed i've been using default i3lock. I've found several solutions how to make/change default lockscreen. 
+
+First: [betterlockscreen](https://github.com/betterlockscreen/betterlockscreen). But for some reasons it doesn't work.(distor: debian 11). I'm trying for find out something.
+
+Second: [i3lock-color](https://github.com/Raymo111/i3lock-color) i use now. It is much better then default(white lock screen).
