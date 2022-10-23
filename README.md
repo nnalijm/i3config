@@ -34,7 +34,7 @@ After all configuration my status bar:
 
 File *i3blocks.conf* contains discription and links to the scripts, which are executed when i3blocks starts.
 
-## I3lock
+## [I3lock](https://github.com/i3/i3lock)
 
 Since i3 was installed i've been using default i3lock. I've found several solutions how to make/change default lockscreen. 
 
