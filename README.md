@@ -30,7 +30,7 @@ Default i3blocks bar looks like i3status. There are the same sections with data.
 
 After all configuration my status bar:
 
-![image](http://www.nalijm.org/i3blocks.jpg)
+![image](https://www.nalijm.org/images/i3blocks.png)
 
 File *i3blocks.conf* contains discription and links to the scripts, which are executed when i3blocks starts.
 
@@ -42,4 +42,4 @@ First: [betterlockscreen](https://github.com/betterlockscreen/betterlockscreen).
 
 Second: [i3lock-color](https://github.com/Raymo111/i3lock-color) i use now. It is much better then default(white lock screen).
 
-![lockscreen](http://www.nalijm.org/images/lockscreen.png)
+![lockscreen](https://www.nalijm.org/images/i3lock.png)
