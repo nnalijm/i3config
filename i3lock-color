@@ -9,21 +9,6 @@ VERIFYING='#625757'
 TEST='ff0008'
 
 
-#insidever-color -
-#ringver-color - 
-#insidewrong-color - внутри
-#ringwrong-color - цвет окружности 
-#inside-color - цвет внутри окружности
-#ring-color - полная окружность
-#line-color - внутренняя окружность
-#separator-color - границы сектора
-#verif-color - verifying
-#wrong-color - no input/wrong passwd
-#time-color - цвет времени
-#date-color - цвет даты
-#layout-color - цвет раскладки 
-#keyhl-color - нажатия 
-#bshl-color - отмена нажатий
 
 i3lock -ec 00000000 \
 --insidever-color=$CLEAR     \
