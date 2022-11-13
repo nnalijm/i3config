@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 BLANK='#00000000'
 CLEAR='#ffffff22'
@@ -6,12 +6,30 @@ DEFAULT='#BCBAB8'
 TEXT='#BCBAB8'
 WRONG='#625757'
 VERIFYING='#625757'
+TEST='ff0008'
 
-i3lock \
+
+#insidever-color -
+#ringver-color - 
+#insidewrong-color - внутри
+#ringwrong-color - цвет окружности 
+#inside-color - цвет внутри окружности
+#ring-color - полная окружность
+#line-color - внутренняя окружность
+#separator-color - границы сектора
+#verif-color - verifying
+#wrong-color - no input/wrong passwd
+#time-color - цвет времени
+#date-color - цвет даты
+#layout-color - цвет раскладки 
+#keyhl-color - нажатия 
+#bshl-color - отмена нажатий
+
+i3lock -ec 00000000 \
 --insidever-color=$CLEAR     \
 --ringver-color=$VERIFYING   \
 \
---insidewrong-color=$CLEAR   \
+--insidewrong-color=$BLANK   \
 --ringwrong-color=$WRONG     \
 \
 --inside-color=$BLANK        \
@@ -28,9 +46,10 @@ i3lock \
 --bshl-color=$WRONG          \
 \
 --screen 1                   \
---blur 5                     \
+--blur 5                    \
 --clock                      \
---indicator                  \
 --time-str="%H:%M:%S"        \
 --date-str="%A, %Y-%m-%d"       \
-#--keylayout 1                \
+--keylayout 1                \
+--indicator                     \
+#--battery
